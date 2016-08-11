@@ -4,6 +4,8 @@ Android-Automation
 
 2. 在gradle中的配置：
 
+android {
+
  defaultConfig {
 
 ...
@@ -43,7 +45,10 @@ dependencies {
     
     compile files('libs/mysql-connector-java-5.0.8-bin.jar')
     
+    }
+    
 3. 在AndroidManifest.xml中的配置:
+
     <?xml version="1.0" encoding="utf-8"?>
 
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.XXX">
