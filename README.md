@@ -2,7 +2,9 @@ Android-Automation
 ==================
 
 Android Automation:
+
 1. 使用robotium进行自动化，跨进程使用adbForRobotium
+
 2. 在gradle中的配置：
  defaultConfig {
 ...
@@ -27,6 +29,7 @@ dependencies {
     compile files('libs/robotium-solo-5.2.1.jar')
     compile files('libs/adbForRobotium.jar')
     compile files('libs/mysql-connector-java-5.0.8-bin.jar')
+
 
 3. 在AndroidManifest.xml中的配置：
     //自动化测试用
