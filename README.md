@@ -43,8 +43,11 @@ dependencies {
     
     compile files('libs/mysql-connector-java-5.0.8-bin.jar')
     
-3. 在AndroidManifest.xml中的配置：
-    
+3. 在AndroidManifest.xml中的配置:
+    <?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" package="com.XXX">
+
     <uses-permission android:name="android.permission.RECEIVE_SMS"/>
     
     <uses-permission android:name="android.permission.READ_SMS"/>
@@ -56,14 +59,13 @@ dependencies {
 
   <application
   
-        //自动化测试用
         <instrumentation android:name="com.nonobank.ui.activity.Runners.runner1"
         
-            android:targetPackage="com.nonobank" />
+            android:targetPackage="com.xxxx" />
 
-        <instrumentation android:name="com.nonobank.ui.activity.Runners.runner1.CommonRunner"
+        <instrumentation android:name="com.xxx.ui.activity.Runners.runner1.CommonRunner"
         
-            android:targetPackage="com.nonobank" />
+            android:targetPackage="com.xxxx" />
 
         //自动化测试用,调用的源码下的添加的一个监听类
         
