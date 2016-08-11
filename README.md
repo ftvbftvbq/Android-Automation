@@ -28,6 +28,7 @@ Android-Automation
 dependencies {
 
 ...
+
     compile files('libs/android-junit-report-1.5.8.jar')
     
     compile files('libs/android-logging-log4j-1.0.3.jar')
@@ -58,6 +59,7 @@ dependencies {
 ...
 
   <application
+  
 ...
 
         //自动化测试用
