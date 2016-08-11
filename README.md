@@ -10,7 +10,7 @@ android {
 
 ...
 
-        testInstrumentationRunner 'com.nonobank.ui.activity.Runners.runner1'
+        testInstrumentationRunner 'com.xxxx.ui.activity.Runners.runner1'
         
     }
 
@@ -68,7 +68,7 @@ dependencies {
         
             android:targetPackage="com.xxxx" />
 
-        <instrumentation android:name="com.xxx.ui.activity.Runners.runner1.CommonRunner"
+        <instrumentation android:name="com.xxxx.ui.activity.Runners.runner1.CommonRunner"
         
             android:targetPackage="com.xxxx" />
 
