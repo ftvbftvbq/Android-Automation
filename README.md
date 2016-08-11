@@ -2,7 +2,7 @@ Android-Automation
 ==================
 1. 使用robotium进行自动化，跨进程使用adbForRobotium
 
-2. Android-Automation/androidTest放入app主程序目录
+2. Android-Automation/androidTest放入app主程序目录，mxdYJBorrowTestData.csv为数据驱动文件，SMSReceiver.java为全局监听类，用来监听实际短信到达。
 
 3. 在gradle中的配置：
 
