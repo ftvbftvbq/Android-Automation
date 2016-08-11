@@ -2,7 +2,9 @@ Android-Automation
 ==================
 1. 使用robotium进行自动化，跨进程使用adbForRobotium
 
-2. 在gradle中的配置：
+2. Android-Automation/androidTest放入app主程序目录
+
+3. 在gradle中的配置：
 
 android {
 
@@ -47,7 +49,7 @@ dependencies {
     
     }
     
-3. 在AndroidManifest.xml中的配置:
+4. 在AndroidManifest.xml中的配置:
 
     <?xml version="1.0" encoding="utf-8"?>
 
