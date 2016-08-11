@@ -43,11 +43,9 @@ dependencies {
     
     compile files('libs/mysql-connector-java-5.0.8-bin.jar')
 
-
 3. 在AndroidManifest.xml中的配置：
 
     //自动化测试用
-    
     <uses-permission android:name="android.permission.RECEIVE_SMS"/>
     
     <uses-permission android:name="android.permission.READ_SMS"/>
@@ -61,7 +59,6 @@ dependencies {
   <application
   
 ...
-
         //自动化测试用
         
         <instrumentation android:name="com.nonobank.ui.activity.Runners.runner1"
